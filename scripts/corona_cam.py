@@ -26,8 +26,8 @@ def main():
 
 
 def run_camera(record_time,pixels):
-    os.chdir('/home/pi/Corona_Cam/h264')
-    filename = set_filename(prefix = 'Corona_Cam',filetype = '.h264')  #The name issued here prepends the date and time in the returned filename.
+    os.chdir('/home/pi/corona_cam/h264')
+    filename = set_filename(prefix = 'corona_cam',filetype = '.h264')  #The name issued here prepends the date and time in the returned filename.
     with picamera.PiCamera() as camera:
         #camera.rotation = 180  #Comment out or delete this line in deployment scenarios.
         #camera.preview_fullscreen = False
@@ -57,7 +57,7 @@ def run_camera(record_time,pixels):
 
 
 #Function that bulds the filename for the recording.
-def set_filename(prefix = 'Corona_Cam',filetype = '.h264'):
+def set_filename(prefix = 'corona_cam',filetype = '.h264'):
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H%M") #Add a timestamp to the filename in the format of YYYY-MM-DD_HHMM  
     filename = prefix + '_' + timestamp + filetype 
     return filename

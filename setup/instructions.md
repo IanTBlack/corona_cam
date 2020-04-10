@@ -13,7 +13,7 @@ Open terminal and ensure that you are in the default directory (/home/pi).
 
 Next, enter the command:
 
-> git clone https://github.com/IanTBlack/Corona_Cam.github
+> git clone https://github.com/IanTBlack/corona_cam.git
 
 This will initiate a download of the entire repository.
 

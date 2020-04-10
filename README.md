@@ -1,7 +1,7 @@
-# Corona_Cam
+# Corona Cam
 [The In-situ Plankton Assemblage eXplorer (IPAX) was developed by Pichaya Lertvilai at UCSD](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/648464). The Corona_Cam is a modified version of the IPAX that was presented at Ocean Sciences Meeting 2020. The repo for the IPAX is located here [link once available].
 
-The Corona_Cam took approximately 8 pots of coffee and 72 Coronas to complete.
+The Corona Cam took approximately 8 pots of coffee and 72 Coronas to complete.
 
 ## Repository Structure
 ### 3d_prints
@@ -15,6 +15,5 @@ A build list is also provided. The primary vendors in this build list are Adafru
 This folder contains scripts for testing build components, a script that should be run at reboot, and the main operating script.
 
 ### setup
-This folder contains a shell script that initially sets up the RPi with the necessary libraries and software. There is also an instructions.md file that provides step-by-step instructions for further setting up the camera from build to production. 
+This folder contains a shell script that initially sets up the RPi with the necessary libraries and software. There is also an instructions.md file that provides step-by-step instructions for further setting up the camera from build to production.
 Note that these instructions consider use of the Raspbian GUI while deployment considers use of the command line interface.
-

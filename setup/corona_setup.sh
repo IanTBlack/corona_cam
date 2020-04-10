@@ -28,7 +28,7 @@ sudo sh installZero2Go.sh
 echo "Zero2Go Omini software has been installed."
 
 echo "Setting up directories..."
-cd /home/pi/Corona_Cam/
+cd /home/pi/corona_cam/
 mkdir h264
 
 echo "Checking for updates again..."
