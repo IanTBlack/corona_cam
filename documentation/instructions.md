@@ -1,13 +1,12 @@
 # Order of Operations
 ## Raspbian Install
-I first recommend formatting your microSD card to FAT32.
-[The SD Association provides a simple application for formatting SD cards.](https://www.sdcard.org/downloads/formatter/)
+I first recommend formatting your microSD card to FAT32. [The SD Association provides a simple application for formatting SD cards.](https://www.sdcard.org/downloads/formatter/)
 
-While your microSD card is formatting, you can download the [Raspbian Imager](https://www.raspberrypi.org/documentation/installation/installing-images/README.md), which allows you to flash Raspbian to the card. It is not recommended that you install Raspbian with NOOBS. If you decided to implement the Zero2Go Omini, NOOBS can cause problems with its operation.
+There are a couple of ways you can flash Raspbian to your microSD card. If you decided to include the Zero2Go Omini in your build, it is not recommend that you use NOOBs, as it can cause annoyances during setup. One method that works is the [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/), which provides a graphical user interface (GUI) for installing Raspbian.
 
-Once your card has Raspbian loaded onto it, pop it into the RPiZeroW and fire up the system.
+Another method is to download the [Raspbian zip file](https://www.raspberrypi.org/downloads/raspbian/), unzip it with [7-zip (Windows)](https://www.7-zip.org/download.html) or [The Unarchiver(Mac)](https://theunarchiver.com/), and then flash the Raspbian img to your microSD card with an [imager that works with your system](https://www.raspberrypi.org/documentation/installation/installing-images/).  
 
-Note: These instructions initially consider use of the Raspbian GUI (mostly because I am a visual learner). When deploying the camera, I recommend having the Pi boot to the command line interface (CLI), this frees up memory and slightly reduces power consumption.
+Note: These instructions consider the use of the Raspbian GUI to facilitate easier setup and so that video recordings can be previewed. When deploying the camera, I recommend having the Pi boot to the command line interface (CLI), this frees up memory and slightly reduces power consumption.
 
 ## GitHub Repository Download
 Instead of having to download files individually, you can download the whole GitHub repository using the git clone command.
@@ -15,12 +14,17 @@ Open terminal and ensure that you are in the default directory (/home/pi).
 
 Next, enter the command:
 
-> git clone https://github.com/IanTBlack/corona_cam.git
+'git clone https://github.com/IanTBlack/corona_cam.git'
 
 This will initiate a download of the entire repository.
 
-## Run Setup Script
-I've created a shell script that will install the necessary python libraries and third party software for operating the camera.
+## Run Zero2GO Setup Script
+I've created a shell script that will install the appropriate Zero2Go repository to /home/pi.
+In terminal, execute the following commands.
+
+'cd /home/pi/corona_cam/s'
+
+the necessary python libraries and third party software for operating the camera.
 This makes it so you don't have to set up everything yourself. Although if you still want to do that, you can look at the scripts.
 In terminal, execute the following commands:
 
