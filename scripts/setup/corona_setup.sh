@@ -20,6 +20,7 @@ echo "Installing modules..."
 sudo pip3 install picamera
 sudo pip3 install datetime
 sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
+sudo apt-get install python-smbus i2c-tools
 sleep 1s
 
 echo "Setting up directories..."

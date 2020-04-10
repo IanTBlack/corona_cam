@@ -18,37 +18,6 @@ Next, enter the command:
 
 This will initiate a download of the entire repository.
 
-## Run Zero2GO Setup Script
-I've created a shell script that will install the appropriate Zero2Go repository to /home/pi.
-In terminal, execute the following commands.
-
-'cd /home/pi/corona_cam/s'
-
-the necessary python libraries and third party software for operating the camera.
-This makes it so you don't have to set up everything yourself. Although if you still want to do that, you can look at the scripts.
-In terminal, execute the following commands:
-
-> cd /home/pi/corona_cam/setup
-> chmod +x corona_setup.sh
-> cd /home/pi/
-> sudo sh /home/pi/corona_cam/setup/corona_setup.sh
-
-This will install some libraries and setup a new directory in the corona_cam folder for recorded videos. It will also set up corona_boot.sh and corona_cam.py to be executable.
-
-## Zero2Go Omini Setup and Testing
-Once the corona_setup.sh script runs and the Pi reboots, you can set up the Zero2Go Omini. The setup script should take care of installation.
-
-Once you physically mount the pHat, you can configure the Zero2Go.
-Enter the following commands in terminal:
-
-> cd zero2go
-> ./zero2go.sh
-
-A console will appear in the terminal that lets you configure the Zero2Go defaults.
-
-You'll want to change the default state when power is connected to ON.
-Set the blinking interval to 8 seconds.
-If you want to camera to safely shutdown at a low voltage, you can configure it based on the battery voltage.
 
 ## Protoboard Setup and Testing
 
