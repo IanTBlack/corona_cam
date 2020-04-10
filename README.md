@@ -3,6 +3,10 @@
 
 The Corona Cam took approximately 8 pots of coffee and 72 Coronas to complete.
 
+![Cam_Tall](https://github.com/IanTBlack/corona_cam/blob/master/documentation/images/full_tall.jpg)
+
+![Cam_Face](https://github.com/IanTBlack/corona_cam/blob/master/documentation/images/full_face.jpg)
+
 ## Repository Structure
 ### 3d_prints
 This folder contains .ipt, .stl, and .gcode files for the camera mount, battery mount, and camera setup tool. For the .gcode files, Ultimaker Cura 4.5 was used as the slicer for printing on an Ender 5 Pro. The readme.txt file in that folder details the settings used. All three parts require approximately 300g of PLA and ~21 hours of print time.
