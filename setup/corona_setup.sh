@@ -22,11 +22,6 @@ sudo pip3 install datetime
 sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
 sleep 1s
 
-echo "Installing Zero2Go Omini software..."
-wget http://www.uugear.com/repo/Zero2GoOmini/installZero2Go.sh
-sudo sh installZero2Go.sh
-echo "Zero2Go Omini software has been installed."
-
 echo "Setting up directories..."
 cd /home/pi/corona_cam/
 mkdir h264

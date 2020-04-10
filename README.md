@@ -1,5 +1,5 @@
 # Corona Cam
-[The In-situ Plankton Assemblage eXplorer (IPAX) was developed by Pichaya Lertvilai at UCSD](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/648464). The Corona_Cam is a modified version of the IPAX that was presented at Ocean Sciences Meeting 2020. The repo for the IPAX is located here [link once available].
+[The In-situ Plankton Assemblage eXplorer (IPAX) was developed by Pichaya Lertvilai at UCSD](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/648464). The Corona Cam is and attempt at recreating the IPAX that was presented at Ocean Sciences Meeting 2020. The repo for the IPAX is located here [link once available].
 
 The Corona Cam took approximately 8 pots of coffee and 72 Coronas to complete.
 
@@ -21,3 +21,7 @@ This folder contains scripts for testing build components, a script that should 
 ### setup
 This folder contains a shell script that initially sets up the RPi with the necessary libraries and software. There is also an instructions.md file that provides step-by-step instructions for further setting up the camera from build to production.
 Note that these instructions consider use of the Raspbian GUI while deployment considers use of the command line interface.
+
+
+# Issues
+If you have the zero2go software installed, and then install it again, it may cause comms issues with the pHat. For the time being, I've removed the zero2go portion of the corona_setup.sh script. This software will need to be installed manually before you hook up the pHat

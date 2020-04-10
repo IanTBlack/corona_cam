@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 600s  #Sleep for 600 seconds. 
+sleep 300s  #Sleep for 300 seconds. 
 
 sudo /usr/bin/tvservice -o  #Turn off the HDMI port.
 sudo /opt/vc/bin/tvservice -o
