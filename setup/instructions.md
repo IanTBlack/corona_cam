@@ -5,7 +5,9 @@ I first recommend formatting your microSD card to FAT32.
 
 While your microSD card is formatting, you can download the [Raspbian Imager](https://www.raspberrypi.org/documentation/installation/installing-images/README.md), which allows you to flash Raspbian to the card. It is not recommended that you install Raspbian with NOOBS. If you decided to implement the Zero2Go Omini, NOOBS can cause problems with its operation.
 
-Once your card has Raspbian loaded onto it, pop it into the RPiZeroW and fire up the system..
+Once your card has Raspbian loaded onto it, pop it into the RPiZeroW and fire up the system.
+
+Note: These instructions initially consider use of the Raspbian GUI (mostly because I am a visual learner). When deploying the camera, I recommend having the Pi boot to the command line interface (CLI), this frees up memory and slightly reduces power consumption.
 
 ## GitHub Repository Download
 Instead of having to download files individually, you can download the whole GitHub repository using the git clone command.
@@ -18,17 +20,31 @@ Next, enter the command:
 This will initiate a download of the entire repository.
 
 ## Run Setup Script
-I've created a shell script that will install the necessary python libraries and third party software for operating the camera. T
+I've created a shell script that will install the necessary python libraries and third party software for operating the camera.
+This makes it so you don't have to set up everything yourself. Although if you still want to do that, you can look at the scripts.
 In terminal, execute the following commands:
 
-> cd /home/pi/Corona_Cam/Setup
+> cd /home/pi/corona_cam/setup
 > chmod +x corona_setup.sh
 > cd /home/pi/
 > sudo sh /home/pi/corona_cam/setup/corona_setup.sh
 
-This will install some libraries and setup a new directory in the corona_cam folder for recorded videos.
+This will install some libraries and setup a new directory in the corona_cam folder for recorded videos. It will also set up corona_boot.sh and corona_cam.py to be executable.
 
 ## Zero2Go Omini Setup and Testing
+Once the corona_setup.sh script runs and the Pi reboots, you can set up the Zero2Go Omini. The setup script should take care of installation.
+
+Once you physically mount the pHat, you can configure the Zero2Go.
+Enter the following commands in terminal:
+
+> cd zero2go
+> ./zero2go.sh
+
+A console will appear in the terminal that lets you configure the Zero2Go defaults.
+
+You'll want to change the default state when power is connected to ON.
+Set the blinking interval to 8 seconds.
+If you want to camera to safely shutdown at a low voltage, you can configure it based on the battery voltage.
 
 ## Protoboard Setup and Testing
 

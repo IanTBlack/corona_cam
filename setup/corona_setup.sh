@@ -31,12 +31,18 @@ echo "Setting up directories..."
 cd /home/pi/corona_cam/
 mkdir h264
 
+echo "Setting up scripts..."
+cd /home/pi/corona_cam/scripts
+chmod +x corona_boot.sh
+chmod +x corona_cam.py
+sleep 1s
+
 echo "Checking for updates again..."
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sleep 1s
 
 
-echo "Rebooting in 30 seconds..."
+echo "Rebooting in 10 seconds..."
 sleep 10s
 sudo reboot
