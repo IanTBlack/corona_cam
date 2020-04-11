@@ -7,7 +7,9 @@
 
 **Lens: 1/2.5" 4mm M12 (swappable)**
 
-**LEDs: NeoPixel Ring - 16x RGBW Cool White**
+**Brains: Raspberry Pi Zero W**
+
+**LEDs: Adafruit NeoPixel Ring - 16x RGBW Cool White**
 
 **Case: Blue Robotics 3" Watertight Enclosure (rated for 100m depth)**
 
