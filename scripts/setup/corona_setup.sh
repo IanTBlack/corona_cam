@@ -13,7 +13,7 @@ sudo apt-get -y upgrade
 sleep 1s
 
 echo "Installing IDLE..."
-sudo apt-get install idle
+sudo apt-get -y install idle
 sleep 1s
 
 echo "Installing modules..."

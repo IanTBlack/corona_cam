@@ -1,0 +1,8 @@
+#This script runs every time the pi boots up.
+@reboot sudo sh /home/pi/corona_cam/scripts/corona_boot.sh &
+
+#This script runs every 15 minutes.
+*/15 * * * * sudo python3 /home/pi/corona_cam/scripts/corona_cam.py
+
+#This scripts runs fifteen minutes past the hour, every hour.
+15 * * * * sudo python3 /home/pi/corona_cam/scripts/corona_cam.py
