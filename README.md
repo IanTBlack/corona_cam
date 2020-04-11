@@ -7,6 +7,8 @@
 
 **Lens: 1/2.5" 4mm M12 (swappable)**
 
+**LEDs: NeoPixel Ring - 16x RGBW Cool White**
+
 **Case: Blue Robotics 3" Watertight Enclosure (rated for 100m depth)**
 
 **Battery: 5V rechargeable lithium-ion (i.e. cell phone power pack)**
