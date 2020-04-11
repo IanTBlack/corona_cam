@@ -1,8 +1,9 @@
-# Order of Operations
+# Instructions
+
 ## 1) Raspbian Install
 I first recommend formatting your microSD card to FAT32. [The SD Association provides a simple application for formatting SD cards.](https://www.sdcard.org/downloads/formatter/)
 
-There are a couple of ways you can flash Raspbian to your microSD card. The easiest method is to use [NOOBS](https://www.raspberrypi.org/downloads/noobs/), which walks you through setting up a Raspberry Pi if it is your first time. The second easiest method is to use the new [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/), which provides a graphical user interface (GUI) for installing Raspbian.
+There are a couple of ways you can flash Raspbian to your microSD card. The easiest method is to use [NOOBS](https://www.raspberrypi.org/downloads/noobs/), which walks you through setting up a Raspberry Pi through a graphical user interface (GUI). The second easiest method is to use the new [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/), which provides a graphical user interface (GUI) for flashing Raspbian to your SD card, but does not set up things for you once installed.
 
 Another method is to download the [Raspbian zip file](https://www.raspberrypi.org/downloads/raspbian/), unzip it with [7-zip (Windows)](https://www.7-zip.org/download.html) or [The Unarchiver(Mac)](https://theunarchiver.com/), and then flash the Raspbian img to your microSD card with an [imager that works with your system](https://www.raspberrypi.org/documentation/installation/installing-images/).  
 
@@ -14,7 +15,13 @@ Open terminal and ensure that you are in the default directory (/home/pi).
 
 Next, enter the command:
 
-'git clone https://github.com/IanTBlack/corona_cam.git'
+```shell
+git clone https://github.com/IanTBlack/corona_cam.git
+```
+
+```bash
+git clone https://github.com/IanTBlack/corona_cam.git
+```
 
 This will initiate a download of the entire repository.
 
