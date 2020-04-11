@@ -94,8 +94,8 @@ In this file, comment out the following lines with a '#' at the beginning of the
 Scroll a little further down the file and also comment out these lines:
 
 ```bash
-/sbin/hwclock --rtc=$dev --systz --badyear
-/sbin/hwclock ==rtc=$dev --systz
+#/sbin/hwclock --rtc=$dev --systz --badyear
+#/sbin/hwclock ==rtc=$dev --systz
 ```
 Write out the script editor with CTRL + O and then exit with CTRL + X.
 
@@ -129,7 +129,7 @@ We are using tall headers here because this allows the protoboard to stack on to
 ![Headers](https://github.com/IanTBlack/corona_cam/blob/master/documentation/images/proto_head_block.jpg)
 ![Wires](https://github.com/IanTBlack/corona_cam/blob/master/documentation/images/proto_wires.jpg)
 
-In my version, I set up wires running from V+, GND, Pin 21, and MOSI to pins on the terminal block. During testing, having the NeoPixel hooked up to MOSI allows you to not run the script as sudo, but can sometimes cause flickering. When deploying the camera, I have the NeoPixel hooked up the Pin 21.
+In my version, I set up wires running from 5V, GND, Pin 21, and MOSI to pins on the terminal block. During testing, having the NeoPixel hooked up to MOSI allows you to not run the script as sudo, but can sometimes cause flickering. When deploying the camera, I have the NeoPixel hooked up the Pin 21.
 
 ## 6) NeoPixel Setup
 Solder wires (~12cm long) to the V+, GND, and Input on the NeoPixel ring. Take care when doing this, as too much solder can short the ring, causing only some of the LEDs to light up.
