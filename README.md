@@ -42,3 +42,7 @@ A build list is also provided. The primary vendors in this build list are Adafru
 
 ### scripts
 This folder contains scripts for testing build components, a script that assists with setting up the Pi, and scripts that are run under crontab.
+
+
+## Contact
+For questions and comments, contact: Ian Black (blackia@oregonstate.edu)
