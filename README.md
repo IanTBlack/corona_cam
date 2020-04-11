@@ -1,17 +1,23 @@
 # Corona Cam
-[The original In-situ Plankton Assemblage eXplorer (IPAX) was developed by Pichaya Lertvilai at UCSD](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/648464). The Corona Cam is an attempt at recreating the IPAX that was presented at Ocean Sciences Meeting 2020. Similar to the IPAX, the Corona Cam attempts to provide a low cost method (~400 USD) for in-situ photography and video recording of very tiny things in the ocean (50-200 microns), such as zooplankton.
+[The original In-situ Plankton Assemblage eXplorer (IPAX) was developed by Pichaya Lertvilai at UCSD](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/648464). The Corona Cam is an attempt at recreating the IPAX that was presented at Ocean Sciences Meeting 2020. Similar to the IPAX, the Corona Cam seeks to provide a low cost method (~400 USD) for in-situ photography and video recording of very tiny things in the ocean (50-200 microns), such as zooplankton.
 
-Specs
+*Specs*
 Sensor Type: Sony IMX219 8MP
+
 Lens: 1/2.5" 4mm M12 (swappable)
+
 Case: Blue Robotics 3" Watertight Enclosure (rated for 100m depth)
+
 Battery: 5V rechargeable lithium-ion (i.e. cell phone power pack)
+
 Video Resolution, Framerate, Format: 1920x1080, 30, .h264
+
 Still Image Resolution: 3280x2464  
 
-![Cam_Tall](https://github.com/IanTBlack/corona_cam/blob/master/documentation/images/full_tall.jpg)
 
-![Cam_Face](https://github.com/IanTBlack/corona_cam/blob/master/documentation/images/full_face.jpg)
+![Face](https://github.com/IanTBlack/corona_cam/blob/master/documentation/images/full_tall.jpg)
+
+![Tall](https://github.com/IanTBlack/corona_cam/blob/master/documentation/images/full_face.jpg)
 
 
 The Corona Cam took approximately 9 pots of coffee and 72 Coronas to develop.
