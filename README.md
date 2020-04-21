@@ -1,5 +1,9 @@
 # Corona Cam
-[The original In-situ Plankton Assemblage eXplorer (IPAX) was developed by Pichaya Lertvilai at UCSD](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/648464). The Corona Cam is an attempt at recreating the IPAX that was presented at Ocean Sciences Meeting 2020. Similar to the IPAX, the Corona Cam seeks to provide a low cost method (~400 USD) for in-situ photography and video recording of very tiny things in the ocean (50-200 microns), such as zooplankton.
+[The original In-situ Plankton Assemblage eXplorer (IPAX) was developed by Pichaya Lertvilai at UCSD](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/648464). The Corona Cam is an attempt at recreating the IPAX that was presented at Ocean Sciences Meeting 2020.
+
+Pichaya has set up a repo for the IPAX here: https://github.com/plertvilai/IPAX  
+
+Similar to the IPAX, the Corona Cam seeks to provide a low cost method (~400 USD) for in-situ photography and video recording of very tiny things in the ocean (50-200 microns), such as zooplankton.
 
 **Specs**
 
